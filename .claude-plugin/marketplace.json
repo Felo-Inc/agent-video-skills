@@ -1,0 +1,90 @@
+{
+  "name": "agent-video-skills",
+  "owner": {
+    "name": "agent-video-skills contributors",
+    "url": "https://github.com"
+  },
+  "metadata": {
+    "description": "A curated collection of Agent Skills for AI video creation — prompting, generation, editing, subtitles and programmatic motion graphics",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "video-prompt-studio",
+      "description": "Turn an idea into a structured, model-ready JSON video prompt with reference-image guidance",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/video-prompt-studio"]
+    },
+    {
+      "name": "openrouter-video-gen",
+      "description": "Generate short AI video clips via OpenRouter, cost-first and one clip at a time",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/openrouter-video-gen"]
+    },
+    {
+      "name": "seedance-video",
+      "description": "Plan, prompt and render multi-shot Seedance videos with staged approval",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/seedance-video"]
+    },
+    {
+      "name": "text-to-video",
+      "description": "Conversational text-to-video generation with a draft, edit and export workflow",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/text-to-video"]
+    },
+    {
+      "name": "motion-graphics-video",
+      "description": "Direct and render a motion-graphics MP4 from HTML/CSS/SVG with Chromium and ffmpeg",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/motion-graphics-video"]
+    },
+    {
+      "name": "remotion-video",
+      "description": "Build a product or brand video in React and Remotion, from brief to rendered MP4",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/remotion-video"]
+    },
+    {
+      "name": "remotion-best-practices",
+      "description": "Domain-rule router for Remotion: animation, captions, audio, charts, 3D and more",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/remotion-best-practices"]
+    },
+    {
+      "name": "ai-video-production",
+      "description": "End-to-end narrated explainer and music-video production for a solo creator",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/ai-video-production"]
+    },
+    {
+      "name": "ffmpeg-video-edit",
+      "description": "Local FFmpeg video editing with a machine-readable tool contract and verification",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/ffmpeg-video-edit"]
+    },
+    {
+      "name": "video-subtitle",
+      "description": "Extract, transcribe, translate, burn and visually edit video subtitles",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/video-subtitle"]
+    },
+    {
+      "name": "ai-video-editor",
+      "description": "Natural-language ffmpeg and yt-dlp editing: trim, merge, silence, shorts and YouTube clips",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/ai-video-editor"]
+    }
+  ]
+}
