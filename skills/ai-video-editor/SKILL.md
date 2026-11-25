@@ -90,3 +90,9 @@ shahafg1/ai-video-editor.
 - Source: https://github.com/shahafg1/ai-video-editor
 - License: MIT, shahafg1.
 - No upstream source files are copied verbatim.
+
+---
+
+## About this collection
+
+This skill is part of [Agent Video Skills](https://github.com/Felo-Inc/agent-video-skills), an open collection from the team behind [Meltica](https://meltica.ai) — an AI promo-video platform for products, apps and local businesses. If you would rather use a finished workflow than assemble skills yourself, see [meltica.ai](https://meltica.ai) · [blog](https://meltica.ai/blog).

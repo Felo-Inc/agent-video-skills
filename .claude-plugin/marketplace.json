@@ -5,8 +5,8 @@
     "url": "https://github.com"
   },
   "metadata": {
-    "description": "A curated collection of Agent Skills for AI video creation — prompting, generation, editing, subtitles and programmatic motion graphics",
-    "version": "1.0.0"
+    "description": "A curated collection of Agent Skills for AI video creation — prompting, generation, editing, subtitles, sound design, shorts and programmatic motion graphics",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -127,6 +127,48 @@
       "source": "./",
       "strict": false,
       "skills": ["./skills/thumbnail-video"]
+    },
+    {
+      "name": "video-enhance",
+      "description": "Upscale, restore and repair existing footage with model choice by problem and an async API lifecycle",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/video-enhance"]
+    },
+    {
+      "name": "video-to-shorts",
+      "description": "Turn a long video into finished vertical shorts with moments, new hooks, captions and 1080x1920 delivery",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/video-to-shorts"]
+    },
+    {
+      "name": "sound-design",
+      "description": "Plan sound layers moment by moment and generate WAV/48 kHz music, SFX, transitions and ambience assets",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/sound-design"]
+    },
+    {
+      "name": "video-clip-extractor",
+      "description": "Extract highlight clips from long videos or livestreams with titles, covers, subtitles and source timestamps",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/video-clip-extractor"]
+    },
+    {
+      "name": "ugc-ad-scripts",
+      "description": "Write phone-filmable UGC ad scripts with hook variants, body, CTA, delivery notes and disclosure lines",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/ugc-ad-scripts"]
+    },
+    {
+      "name": "product-video-hooks",
+      "description": "Write TikTok, Reels and Meta product-video openings as agreeing visual, spoken and overlay layers",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/product-video-hooks"]
     }
   ]
 }

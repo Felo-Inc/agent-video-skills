@@ -101,3 +101,9 @@ alextitonis/fly.ai.
 - License: MIT, alextitonis.
 - No upstream source files are copied verbatim. `gen_video.py` is referenced as an external
   tool and is not bundled here.
+
+---
+
+## About this collection
+
+This skill is part of [Agent Video Skills](https://github.com/Felo-Inc/agent-video-skills), an open collection from the team behind [Meltica](https://meltica.ai) — an AI promo-video platform for products, apps and local businesses. If you would rather use a finished workflow than assemble skills yourself, see [meltica.ai](https://meltica.ai) · [blog](https://meltica.ai/blog).

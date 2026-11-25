@@ -85,3 +85,9 @@ ryankolean/summit-claude-skills. The referenced script is an external tool and i
 - Source: https://github.com/ryankolean/summit-claude-skills/tree/main/skills/watch-video
 - License: MIT — Copyright (c) 2026 Summit Software Solutions LLC.
 - No upstream source files are copied verbatim.
+
+---
+
+## About this collection
+
+This skill is part of [Agent Video Skills](https://github.com/Felo-Inc/agent-video-skills), an open collection from the team behind [Meltica](https://meltica.ai) — an AI promo-video platform for products, apps and local businesses. If you would rather use a finished workflow than assemble skills yourself, see [meltica.ai](https://meltica.ai) · [blog](https://meltica.ai/blog).

@@ -80,3 +80,9 @@ tools and are not bundled here.
 - License: MIT — Copyright (c) 2026 Catnip202X. Bundled third-party pieces in the upstream project
   keep their own terms; review them before reuse.
 - No upstream source files are copied verbatim.
+
+---
+
+## About this collection
+
+This skill is part of [Agent Video Skills](https://github.com/Felo-Inc/agent-video-skills), an open collection from the team behind [Meltica](https://meltica.ai) — an AI promo-video platform for products, apps and local businesses. If you would rather use a finished workflow than assemble skills yourself, see [meltica.ai](https://meltica.ai) · [blog](https://meltica.ai/blog).

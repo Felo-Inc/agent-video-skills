@@ -5,7 +5,18 @@
 
 <p align="center">
   <strong>Built by the team behind <a href="https://meltica.ai">Meltica</a></strong> — an AI promo-video platform for products, apps and local businesses.
-  &nbsp;·&nbsp; <a href="https://meltica.ai">Website</a> · <a href="https://meltica.ai/blog">Blog</a> · <a href="MELTICA.md">About Meltica</a>
+  <br>Never wonder what to post again: turn an idea or a reference into a short-video plan you can review and publish.
+</p>
+
+<p align="center">
+  <a href="https://meltica.ai/?utm_source=github&utm_medium=agent-video-skills&utm_campaign=repo-cta"><strong>Try Meltica →</strong></a>
+  &nbsp;·&nbsp; <a href="MELTICA.md">Read the product story</a>
+  &nbsp;·&nbsp; <a href="#skills">Copy the skills</a>
+</p>
+
+<p align="center">
+  <a href="https://meltica.ai/?utm_source=github&utm_medium=agent-video-skills&utm_campaign=repo-links">Website</a>
+  · <a href="https://meltica.ai/blog?utm_source=github&utm_medium=agent-video-skills&utm_campaign=repo-links">Blog</a>
 </p>
 
 ---
@@ -53,7 +64,7 @@ cp -r skills/<skill-name> .agents/skills/
 
 ## Skills
 
-17 skills across six stages of the video workflow. Each link opens the full SKILL.md.
+23 skills across six stages of the video workflow. Each link opens the full SKILL.md.
 
 ### Plan & prompt
 
@@ -61,6 +72,8 @@ cp -r skills/<skill-name> .agents/skills/
 | --- | --- | --- |
 | [`video-prompt-studio`](skills/video-prompt-studio) | Turns an idea into a structured JSON video prompt — scene, characters, camera, dialogue, audio — with optional reference-image binding | you have a rough idea and need a model-ready prompt before generating |
 | [`video-understanding`](skills/video-understanding) | Builds a scene-level index of a video: cut points, ASR transcript, per-scene visual observations, silence windows, a fused timeline and a writing brief | you need to recap, summarize or index a long video from real facts |
+| [`ugc-ad-scripts`](skills/ugc-ad-scripts) | Writes phone-filmable UGC ad scripts with hook, body, CTA, 3–5 hook variants, delivery notes and disclosure lines | you need a creator-style vertical ad script that is ready to film |
+| [`product-video-hooks`](skills/product-video-hooks) | Writes product-video openings as three agreeing layers — first frame, spoken line and text overlay — matched to buyer awareness and claim rules | you need the first 2–3 seconds of a TikTok, Reels or Meta product video |
 
 ### Generate
 
@@ -101,6 +114,10 @@ cp -r skills/<skill-name> .agents/skills/
 | [`video-localization`](skills/video-localization) | Ships one approved master in many languages: dubbing, per-market captions and translated text baked into images, all from the master | you are localizing a video or ad into multiple markets |
 | [`watch-video`](skills/watch-video) | Downloads a video, extracts timestamped frames and a transcript, then reads both so the agent can answer about its contents | you share a video/reel URL and ask what is in it, what was said, or to find a moment |
 | [`thumbnail-video`](skills/thumbnail-video) | Generates distinct 1280×720 thumbnail variants from video frames with HTML/CSS-rendered caption text for A/B testing | you need YouTube thumbnails or a video cover with readable title text |
+| [`video-enhance`](skills/video-enhance) | Repairs and finishing-passes existing footage — upscale, denoise, deblur, stabilize, interpolate, restore — with model choice by problem and async API lifecycle | a clip is soft, noisy, low-res or flickery and needs enhancement before delivery |
+| [`video-to-shorts`](skills/video-to-shorts) | Turns a podcast, interview, talk or stream into vertical shorts: timestamped transcript, candidate scoring, new hook, captions and 1080×1920 delivery | you want to repurpose one long video into self-contained shorts for TikTok, Reels or Shorts |
+| [`video-clip-extractor`](skills/video-clip-extractor) | Finds highlight moments in long videos or livestreams and packages them with titles, covers, subtitles and source timestamps | you want shareable highlight clips from a Bilibili/YouTube URL or a local recording |
+| [`sound-design`](skills/sound-design) | Reads a script or edit moment by moment, chooses fitting sound layers, then generates WAV/48 kHz assets via API or local synthesis | you need music, SFX, transitions, ambience or UI sounds planned and produced for specific moments |
 
 ## Credits
 
@@ -125,6 +142,12 @@ All upstream projects are MIT-licensed. Full license texts and copyright notices
 | video-localization | [layerai/skills — layer-localization](https://github.com/layerai/skills/tree/main/plugins/layer/skills/layer-localization) + [elevenlabs/skills — dubbing](https://github.com/elevenlabs/skills/tree/main/dubbing) | Layer AI / ElevenLabs | MIT |
 | watch-video | [ryankolean/summit-claude-skills — watch-video](https://github.com/ryankolean/summit-claude-skills/tree/main/skills/watch-video) | Summit Software Solutions LLC | MIT |
 | thumbnail-video | [smitmartijn/claude-skills — thumbnail-video](https://github.com/smitmartijn/claude-skills/tree/HEAD/thumbnail-video) | Martijn Smit | MIT |
+| video-enhance | [calesthio/generative-media-skills — topaz-video-enhancement](https://github.com/calesthio/generative-media-skills/tree/main/skills/providers/video-enhancement/topaz-video-enhancement) | generative-media-skills contributors | MIT |
+| video-to-shorts | [social-media-skills — video-to-shorts-skill](https://github.com/social-media-skills/video-to-shorts-skill), [Jakeschincariol/youtube-agent-skill — yt-shorts](https://github.com/Jakeschincariol/youtube-agent-skill/tree/main/skills/yt-shorts), [Melvynx/video-agent-skills — clips](https://github.com/Melvynx/video-agent-skills/tree/main/skills/clips) | social-media-skills / Jakeschincariol / Melvynx | MIT |
+| sound-design | [dodoxtech/sonic-skill — sound-generation](https://github.com/dodoxtech/sonic-skill/tree/main/skills/sound-generation) | dodoxtech | MIT |
+| video-clip-extractor | [linzzzzzz/openclip — video-clip-extractor](https://github.com/linzzzzzz/openclip/tree/main/.claude/skills/video-clip-extractor) | OpenClip Contributors | MIT |
+| ugc-ad-scripts | [mbfinotti/advertising-skills — ugc-ad-scripts](https://github.com/mbfinotti/advertising-skills/tree/HEAD/skills/ugc-ad-scripts) | Nativa Labs | MIT |
+| product-video-hooks | [vargHQ/skills — product-video-hooks](https://github.com/vargHQ/skills/tree/main/product-video-hooks) | vargai Inc. | MIT |
 
 See each skill's `SKILL.md` → **Inspiration & credit** section for details.
 

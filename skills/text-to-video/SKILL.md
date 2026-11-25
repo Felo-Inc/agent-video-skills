@@ -86,3 +86,9 @@ and is not affiliated with this repository; endpoint names are deliberately gene
 - Source: https://github.com/LeoYeAI/agent-master-skills/tree/HEAD/skills/text-to-video-generator
 - License: MIT, LeoYeAI.
 - No upstream source files are copied verbatim.
+
+---
+
+## About this collection
+
+This skill is part of [Agent Video Skills](https://github.com/Felo-Inc/agent-video-skills), an open collection from the team behind [Meltica](https://meltica.ai) — an AI promo-video platform for products, apps and local businesses. If you would rather use a finished workflow than assemble skills yourself, see [meltica.ai](https://meltica.ai) · [blog](https://meltica.ai/blog).
