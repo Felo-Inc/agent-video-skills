@@ -1,6 +1,20 @@
+<p align="center">
+  <img src="assets/meltica-logo.svg#gh-light-mode-only" alt="Meltica" width="260">
+  <img src="assets/meltica-logo-dark.svg#gh-dark-mode-only" alt="Meltica" width="260">
+</p>
+
+<p align="center">
+  <strong>Built by the team behind <a href="https://meltica.ai">Meltica</a></strong> — an AI promo-video platform for products, apps and local businesses.
+  &nbsp;·&nbsp; <a href="https://meltica.ai">Website</a> · <a href="https://meltica.ai/blog">Blog</a> · <a href="MELTICA.md">About Meltica</a>
+</p>
+
+---
+
 # Agent Video Skills
 
 A curated collection of **Agent Skills (SKILL.md)** for AI video creation — from prompting and generation to editing, subtitles and programmatic motion graphics.
+
+> **About Meltica** — This collection is brought to you by the team behind [Meltica](https://meltica.ai), an AI promo-video platform for product brands, App & SaaS teams and local businesses. Turn an idea or a reference video into a short-video plan you can review and publish. [Learn more →](MELTICA.md)
 
 一个面向 AI 视频创作的 **Agent Skills（`SKILL.md`）** 精选集：覆盖从提示词、生成到剪辑、字幕与代码化动效的全链路。
 
@@ -39,19 +53,54 @@ cp -r skills/<skill-name> .agents/skills/
 
 ## Skills
 
-| Skill | What it does | Inspired by |
+17 skills across six stages of the video workflow. Each link opens the full SKILL.md.
+
+### Plan & prompt
+
+| Skill | What it does | Use it when… |
 | --- | --- | --- |
-| [`video-prompt-studio`](skills/video-prompt-studio) | Turn an idea into a structured, model-ready JSON video prompt with reference-image guidance | Citrus-bit/Anaxa (video-generation) |
-| [`openrouter-video-gen`](skills/openrouter-video-gen) | Generate short clips via OpenRouter's async video API — cost-first, one clip at a time | alextitonis/fly.ai (video-gen) |
-| [`seedance-video`](skills/seedance-video) | Plan multi-shot Seedance videos, write prompts, quote and render by last-frame chaining | AiuniVid/seedance-video-skill |
-| [`text-to-video`](skills/text-to-video) | Conversational text-to-video with draft → edit → export loop | LeoYeAI/agent-master-skills |
-| [`motion-graphics-video`](skills/motion-graphics-video) | Direct and render a motion-graphics MP4 from HTML/CSS/SVG with Chromium + ffmpeg | farhan-syah/motion-video-skill |
-| [`remotion-video`](skills/remotion-video) | Build a product/brand video in React + Remotion, from brief to rendered MP4 | LeoYeAI + TechNomadCode |
-| [`remotion-best-practices`](skills/remotion-best-practices) | Domain-rule router for Remotion: animation, captions, audio, charts, 3D and more | Karanjot786/agent-skills-cli |
-| [`ai-video-production`](skills/ai-video-production) | End-to-end narrated explainer / music-video production for a solo creator | Catnip202X/ai-video-production |
-| [`ffmpeg-video-edit`](skills/ffmpeg-video-edit) | 40+ local FFmpeg editing tools with a machine-readable contract and verification | kajisho5/ffmpeg-skill |
-| [`video-subtitle`](skills/video-subtitle) | Extract, transcribe, translate, burn and visually edit subtitles (Whisper + ffmpeg) | Crazy-MT/video-subtitle |
-| [`ai-video-editor`](skills/ai-video-editor) | Natural-language ffmpeg + yt-dlp editing: trim, merge, silence, shorts, YouTube clips | shahafg1/ai-video-editor |
+| [`video-prompt-studio`](skills/video-prompt-studio) | Turns an idea into a structured JSON video prompt — scene, characters, camera, dialogue, audio — with optional reference-image binding | you have a rough idea and need a model-ready prompt before generating |
+| [`video-understanding`](skills/video-understanding) | Builds a scene-level index of a video: cut points, ASR transcript, per-scene visual observations, silence windows, a fused timeline and a writing brief | you need to recap, summarize or index a long video from real facts |
+
+### Generate
+
+| Skill | What it does | Use it when… |
+| --- | --- | --- |
+| [`openrouter-video-gen`](skills/openrouter-video-gen) | Generates short clips via an async video API — cheapest suitable model first, one clip at a time, cost reported after each | you want a quick meme, promo or social clip from a prompt or a start image |
+| [`seedance-video`](skills/seedance-video) | Plans multi-shot videos, writes Seedance prompts, quotes credits, renders cheap drafts and chains shots from the previous last frame | you want a multi-shot story, ad or explainer with staged approval before spend |
+| [`text-to-video`](skills/text-to-video) | Conversational text-to-video with a draft → edit → export loop over a hosted backend | you want to refine a video through follow-up messages instead of one-shot generation |
+
+### Avatars & lip sync
+
+| Skill | What it does | Use it when… |
+| --- | --- | --- |
+| [`ai-avatar`](skills/ai-avatar) | Trains a consented digital twin or photo avatar and speaks lines in a cloned voice, judged mouth-to-mouth against real footage | the person on screen should be a specific person saying words they never recorded |
+| [`lipsync`](skills/lipsync) | Drives a face's mouth from an audio track — portrait + audio, video + audio, or generate-and-sync from a script | you need to sync lips to a voice or dub a line onto existing footage |
+
+### Programmatic video
+
+| Skill | What it does | Use it when… |
+| --- | --- | --- |
+| [`motion-graphics-video`](skills/motion-graphics-video) | Directs then renders a motion-graphics MP4 from HTML/CSS/SVG with Chromium and ffmpeg, with optional synthesized effects | you want a directed explainer, launch film or kinetic-typography piece with no live action |
+| [`remotion-video`](skills/remotion-video) | Builds a product or brand video in React + Remotion, from an approved brief and storyboard to a rendered MP4 | you want a repeatable, code-built promo or product demo |
+| [`remotion-best-practices`](skills/remotion-best-practices) | Routes to the precise Remotion rule for animation, timing, captions, audio, charts, 3D and more | you are writing or debugging Remotion code and need the correct API pattern |
+
+### End-to-end production
+
+| Skill | What it does | Use it when… |
+| --- | --- | --- |
+| [`ai-video-production`](skills/ai-video-production) | Full narrated-explainer and music-video pipeline: script, storyboard with decision log, TTS + ASR check, VO-driven timing, Remotion graphics, publish | a solo creator is producing a finished explainer, tutorial or music video |
+
+### Edit, captions & delivery
+
+| Skill | What it does | Use it when… |
+| --- | --- | --- |
+| [`ffmpeg-video-edit`](skills/ffmpeg-video-edit) | 40+ local FFmpeg tools with a machine-readable contract and verified output: cut, join, reframe, speed, captions, loudness, HDR→SDR, exports | you need reliable, local, verifiable editing without an API key |
+| [`ai-video-editor`](skills/ai-video-editor) | Natural-language ffmpeg + yt-dlp editing: trim, merge, silence, shorts, subtitles and YouTube clips | you want quick command-level edits, including from a YouTube URL |
+| [`video-subtitle`](skills/video-subtitle) | Extracts, transcribes, translates, burns and visually edits subtitles using Whisper + ffmpeg, including bilingual output | you need to add, translate or burn subtitles, or review them in a visual editor |
+| [`video-localization`](skills/video-localization) | Ships one approved master in many languages: dubbing, per-market captions and translated text baked into images, all from the master | you are localizing a video or ad into multiple markets |
+| [`watch-video`](skills/watch-video) | Downloads a video, extracts timestamped frames and a transcript, then reads both so the agent can answer about its contents | you share a video/reel URL and ask what is in it, what was said, or to find a moment |
+| [`thumbnail-video`](skills/thumbnail-video) | Generates distinct 1280×720 thumbnail variants from video frames with HTML/CSS-rendered caption text for A/B testing | you need YouTube thumbnails or a video cover with readable title text |
 
 ## Credits
 
@@ -60,6 +109,7 @@ All upstream projects are MIT-licensed. Full license texts and copyright notices
 | Skill | Source project | Author | License |
 | --- | --- | --- | --- |
 | video-prompt-studio | [Citrus-bit/Anaxa — video-generation](https://github.com/Citrus-bit/Anaxa/tree/HEAD/skills/public/video-generation) | Bytedance / DeerFlow / MedrixFlow Authors | MIT |
+| video-understanding | [zenstory-ai/video-recap-skills — video-understanding](https://github.com/zenstory-ai/video-recap-skills/tree/HEAD/skills/video-understanding) | PiteChen | MIT |
 | openrouter-video-gen | [alextitonis/fly.ai — video-gen](https://github.com/alextitonis/fly.ai/tree/main/.claude/skills/video-gen) | alextitonis | MIT |
 | seedance-video | [AiuniVid/seedance-video-skill](https://github.com/AiuniVid/seedance-video-skill) | AiuniVid | MIT |
 | text-to-video | [LeoYeAI/agent-master-skills — text-to-video-generator](https://github.com/LeoYeAI/agent-master-skills) | LeoYeAI | MIT |
@@ -70,6 +120,11 @@ All upstream projects are MIT-licensed. Full license texts and copyright notices
 | ffmpeg-video-edit | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | kajisho5 | MIT |
 | video-subtitle | [Crazy-MT/video-subtitle](https://github.com/Crazy-MT/video-subtitle) | Crazy-MT | MIT |
 | ai-video-editor | [shahafg1/ai-video-editor](https://github.com/shahafg1/ai-video-editor) | shahafg1 | MIT |
+| ai-avatar | [MengTo/Skills — create-ai-avatar](https://github.com/MengTo/Skills/tree/main/agent-skills/media/create-ai-avatar) | Meng To | MIT |
+| lipsync | [genmedia-labs/skills — lipsync](https://github.com/genmedia-labs/skills/tree/main/lipsync) + [layerai/skills — layer-talking-characters](https://github.com/layerai/skills) | genmedia-labs / Layer AI | MIT |
+| video-localization | [layerai/skills — layer-localization](https://github.com/layerai/skills/tree/main/plugins/layer/skills/layer-localization) + [elevenlabs/skills — dubbing](https://github.com/elevenlabs/skills/tree/main/dubbing) | Layer AI / ElevenLabs | MIT |
+| watch-video | [ryankolean/summit-claude-skills — watch-video](https://github.com/ryankolean/summit-claude-skills/tree/main/skills/watch-video) | Summit Software Solutions LLC | MIT |
+| thumbnail-video | [smitmartijn/claude-skills — thumbnail-video](https://github.com/smitmartijn/claude-skills/tree/HEAD/thumbnail-video) | Martijn Smit | MIT |
 
 See each skill's `SKILL.md` → **Inspiration & credit** section for details.
 

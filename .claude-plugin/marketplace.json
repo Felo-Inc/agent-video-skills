@@ -85,6 +85,48 @@
       "source": "./",
       "strict": false,
       "skills": ["./skills/ai-video-editor"]
+    },
+    {
+      "name": "ai-avatar",
+      "description": "Create a consented digital twin or photo avatar that speaks in a cloned voice with lip sync",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/ai-avatar"]
+    },
+    {
+      "name": "lipsync",
+      "description": "Drive a face's mouth from an audio track, or dub a line onto existing footage",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/lipsync"]
+    },
+    {
+      "name": "video-localization",
+      "description": "Ship one approved video master in many languages: dubbing, captions and translated image text",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/video-localization"]
+    },
+    {
+      "name": "watch-video",
+      "description": "Let an agent watch a video via timestamped frames and transcript to answer questions about it",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/watch-video"]
+    },
+    {
+      "name": "video-understanding",
+      "description": "Build a scene-level understanding index of a video: scenes, transcript, observations and a brief",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/video-understanding"]
+    },
+    {
+      "name": "thumbnail-video",
+      "description": "Generate distinct YouTube thumbnail variants from video frames with rendered caption text",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/thumbnail-video"]
     }
   ]
 }
