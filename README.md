@@ -17,6 +17,7 @@
 <p align="center">
   <a href="https://meltica.ai/?utm_source=github&utm_medium=agent-video-skills&utm_campaign=repo-links">Website</a>
   · <a href="https://meltica.ai/blog?utm_source=github&utm_medium=agent-video-skills&utm_campaign=repo-links">Blog</a>
+  · <a href="https://x.com/Meltica_felo">X</a>
 </p>
 
 ---

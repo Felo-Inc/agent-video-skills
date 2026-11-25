@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://meltica.ai"><strong>Website</strong></a> · <a href="https://meltica.ai/blog">Blog</a> · <a href="README.md">← Back to Agent Video Skills</a>
+  <a href="https://meltica.ai"><strong>Website</strong></a> · <a href="https://meltica.ai/blog">Blog</a> · <a href="https://x.com/Meltica_felo">X</a> · <a href="README.md">← Back to Agent Video Skills</a>
 </p>
 
 ---
@@ -100,4 +100,5 @@ confirm, and availability of platform integrations depends on the account you co
 
 - Website: https://meltica.ai
 - Blog: https://meltica.ai/blog
+- X: https://x.com/Meltica_felo
 - This skill collection: https://github.com/Felo-Inc/agent-video-skills
