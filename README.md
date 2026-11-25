@@ -28,11 +28,7 @@ A curated collection of **Agent Skills (SKILL.md)** for AI video creation — fr
 
 > **About Meltica** — This collection is brought to you by the team behind [Meltica](https://meltica.ai), an AI promo-video platform for product brands, App & SaaS teams and local businesses. Turn an idea or a reference video into a short-video plan you can review and publish. [Learn more →](MELTICA.md)
 
-一个面向 AI 视频创作的 **Agent Skills（`SKILL.md`）** 精选集：覆盖从提示词、生成到剪辑、字幕与代码化动效的全链路。
-
 > **License:** MIT. Every skill in this repo is an original, rewritten adaptation **inspired by** an upstream MIT-licensed project. Inspiration, author and source URL are credited in each skill's `SKILL.md` (see [Credits](#credits)). No upstream source files are copied verbatim.
->
-> 本仓库为 MIT 协议。每个 skill 都是参考上游 MIT 项目后**独立改写**的版本，灵感来源、作者与源地址均在各自 `SKILL.md` 中标注。未逐字复制任何上游源文件。
 
 ## What is an Agent Skill?
 
